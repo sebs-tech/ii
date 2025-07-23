@@ -1,0 +1,81 @@
+#include <stdio.h>  // Required for file input/output functions (fopen,
+                    // fclose, fgets, printf)
+#include <stdlib.h> // Required for general utilities, especially EXIT_FAILURE,
+                    // rand, srand
+#include <string.h> // Required for string manipulation functions (strcspn)
+#include <time.h>   // Required for time() to seed random number generator
+
+#define MAX_LINE_LENGTH 256 // Define a maximum length for each line to be read
+
+int main() {
+    FILE *file_pointer;           // Declare a file pointer
+    char filename[100];           // Buffer to store the filename
+    char line_buffer[MAX_LINE_LENGTH]; // Buffer to store each line read from
+                                       // the file
+    int total_lines = 0;          // Counter for the total number of lines in
+                                  // the file
+    int random_line_number;       // The chosen random line number to print
+    int current_line_count = 0;   // Counter for the current line being read
+
+    // 1. Manually specify the filename
+    // You can change "sample.txt" to any file path you want to read.
+    strcpy(filename, "../data/new/captain_haddock.txt");
+
+    // 2. Open the file in read mode ("r") for the first pass (counting lines)
+    file_pointer = fopen(filename, "r");
+
+    // 3. Error handling: Check if the file was opened successfully
+    if (file_pointer == NULL) {
+        fprintf(stderr,
+                "Error: Could not open file '%s'. Make sure the file exists "
+                "and you have read permissions.\n", filename);
+        return EXIT_FAILURE; // Exit the program with an an error code
+    }
+
+    // First pass: Count the total number of lines in the file
+    while (fgets(line_buffer, MAX_LINE_LENGTH, file_pointer) != NULL) {
+        total_lines++;
+    }
+
+    // Close the file after counting
+    fclose(file_pointer);
+
+    // Handle empty file case
+    if (total_lines == 0) {
+        printf("The file '%s' is empty or could not be read.\n", filename);
+        return 0;
+    }
+
+    // Seed the random number generator with the current time
+    srand(time(NULL));
+
+    // Generate a random line number between 1 and total_lines (inclusive)
+    random_line_number = (rand() % total_lines) + 1;
+
+    // 4. Re-open the file for the second pass (reading the specific line)
+    file_pointer = fopen(filename, "r");
+    if (file_pointer == NULL) {
+        fprintf(stderr,
+                "Error: Could not re-open file '%s'. This should not happen "
+                "if it opened successfully the first time.\n", filename);
+        return EXIT_FAILURE;
+    }
+
+
+    // Second pass: Read lines until the random line is reached
+    while (fgets(line_buffer, MAX_LINE_LENGTH, file_pointer) != NULL) {
+        current_line_count++;
+        if (current_line_count == random_line_number) {
+            // Remove the trailing newline character from the buffer if it exists.
+            line_buffer[strcspn(line_buffer, "\n")] = 0;
+            printf(" %s ", line_buffer); // Print only the random line
+            break; // Exit the loop once the random line is found and printed
+        }
+    }
+
+
+    // 5. Close the file
+    fclose(file_pointer);
+
+    return 0; // Indicate successful execution
+}

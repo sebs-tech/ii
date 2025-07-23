@@ -1,0 +1,218 @@
+<li>Aardvark!</li>
+<li>Abecedarians!</li>
+<li>Aborigine!</li>
+<li>Addle-pated lumps of anthracite!</li>
+<li>(old) Alcoholic!</li>
+<li>Anachronisms!</li>
+<li>Anacoluthons!</li>
+<li>Antediluvian bulldozer [Tibet p60 B2]!</li>
+<li>Anthracite!</li>
+<li>Anthropithecus!</li>
+<li>Anthropophagus!</li>
+<li>Arabian Nightmare!</li>
+<li>Artichokes!</li>
+<li>Autocrats!</li>
+<li>Aztecs!</li>
+<li>Baboons!</li>
+<li>Baby-snatchers!</li>
+<li>Bagpipers!</li>
+<li>Bald-headed budgerigar!</li>
+<li>Bandits!</li>
+<li>Bashi-bazouks!</li>
+<li>Bath-tub Admiral!</li>
+<li>Beast!</li>
+<li>Belemnite!</li>
+<li>Big-head [Tibet p35 B3]!</li>
+<li>Billions of blue blistering boiled and barbecued barnacles [The Seven Crystal Balls, p14, frame 10]!</li>
+<li>Billions of billious barbecued blue blistering barnacles!</li>
+<li>Billions of Bilious Blue Blistering Barnacles!</li>
+<li>Billions of bilious blue blistering barnacles in a thundering typhoon [The Seven Crystal Balls]!</li>
+<li>Billions of blistering barnacles in a thundering typhoon [Tintin in Tibet, p11, frame 3.]!</li>
+<li>Billions of Blue Blistering Barnacles!</li>
+<li>Black beetles!</li>
+<li>Black Marketers!</li>
+<li>Blackamoor!</li>
+<li>Blackbird!</li>
+<li>Blackguards!</li>
+<li>Blithering Bombardier!</li>
+<li>Blistering Barnacles!</li>
+<li>Blistereing blundering bird-brain [Prisoners p9 E4]!</li>
+<li>Bloodsuckers!</li>
+<li>Blue blistering barnacles!</li>
+<li>Blue Blistering Bell-Bottomed Balderdash!</li>
+<li>Blunderbuss!</li>
+<li>Bodysnatcher!</li>
+<li>Bootlegger!</li>
+<li>Borgia!</li>
+<li>Bougainvillea!</li>
+<li>Brat!</li>
+<li>Breathalyser!</li>
+<li>Brigands!</li>
+<li>Brontosaurus [Explorers p3 C4]!</li>
+<li>Brutes!</li>
+<li>Bucaneers!</li>
+<li>Bully! Butcher!</li>
+<li>Cachinnating cockatoo!</li>
+<li>Cannibals!</li>
+<li>Carpathian Bashi-bazouks [Calculus Affair, p42, frame D1.]!</li>
+<li>Carpetsellers!</li>
+<li>Caterpillars!</li>
+<li>Centipede!</li>
+<li>Cercopithecus!</li>
+<li>Certified Diplodocuses [Calculus Affair, p30]!</li>
+<li>Coconut[Crab p58 panel 5]!</li>
+<li>Coelcanth!</li>
+<li>Colocynths!</li>
+<li>Corsair!</li>
+<li>Cowards!</li>
+<li>Crabapples!</li>
+<li>Cro-Magnon!</li>
+<li>Crooks!</li>
+<li>Cushion footed quadrupeds!</li>
+<li>Cyclotron!</li>
+<li>Diplodocus!</li>
+<li>Dizzards [Unicorn p54 C1/frame 7]!</li>
+<li>Dogs!</li>
+<li>Doryphore!</li>
+<li>Doryphores!</li>
+<li>Duck-billed platypus!</li>
+<li>Dunderheaded coconuts!</li>
+<li>Dynamiter!</li>
+<li>Ectoplasms!</li>
+<li>Egoists!</li>
+<li>Fancy-dress Facist!</li>
+<li>Fancy-dress Fatima!</li>
+<li>Fancy-dress freebooter [Unicorn p24 C1]!</li>
+<li>Fatfaces!</li>
+<li>Filibuster(s)!</li>
+<li>Fourlegged Cyrano!</li>
+<li>Freshwater pirate [Unicorn p24 C1]!</li>
+<li>Freshwater swabs!</li>
+<li>Fuzzy wuzzy!</li>
+<li>Gallows-fodder!</li>
+<li>Gangof Theives!</li>
+<li>Gangsters!</li>
+<li>Gibbering anthropoids!</li>
+<li>Gibbering ghost [Red Rackham's Treasure]!</li>
+<li>Great flat-footed grizzly bear!</li>
+<li>Gobbledgook!</li>
+<li>Gogglers!</li>
+<li>Goosecaps!</li>
+<li>Guano-gatherers [Prisoners p9 A1]!</li>
+<li>Gyroscope!</li>
+<li>Harlequin!</li>
+<li>Heretic!</li>
+<li>Highwayman!</li>
+<li>Hydrocarbon!</li>
+<li>Iconoclasts!</li>
+<li>Idiots!</li>
+<li>... you, Imitation Incas, you [Prisoners p47 B2]!</li>
+<li>You, interplantary goat, you [Explorers on the Moon p62 C3]!</li>
+<li>Jellied eel!</li>
+<li>Jellyfish!</li>
+<li>Jobbernowl [Tibet p60 B2]!</li>
+<li>Kleptomaniacs!</li>
+<li>Koua Kouakouin Kouinkouin Koua Kouin Koua [Emerald p30 panel 8]!</li>
+<li>Lily-livered landlubbers!</li>
+<li>Liquorice[Crab p59 panel 2]!</li>
+<li>Loathsome brute!</li>
+<li>Logarithim!</li>
+<li>Lubberscum!</li>
+<li>Macrocephalic baboon!</li>
+<li>Megacycle [Tibet p60 B3]!</li>
+<li>Megacycle Pyromaniac!</li>
+<li>Mameluke!</li>
+<li>Miserable blundering barbecued blister!</li>
+<li>Miserable earth worms!</li>
+<li>Miserable miser!</li>
+<li>Miserable molecule of mildew!</li>
+<li>Misguided missles!</li>
+<li>MisterMule!</li>
+<li>Monopolizers!</li>
+<li>Monster!</li>
+<li>Morons!</li>
+<li>Moujiks!</li>
+<li>Mountebanks!</li>
+<li>Musical morons!</li>
+<li>Nanny Goat!</li>
+<li>Nincompoop!</li>
+<li>Nitwits!</li>
+<li>Nitwitted ninepins!</li>
+<li>Nyctalops!</li>
+<li>Odd-toed ungulate!</li>
+<li>Ophicleides!</li>
+<li>Orangoutang!</li>
+<li>Ostrogoth!</li>
+<li>Pachyrhizus!</li>
+<li>Parasites!</li>
+<li>Patagonians!</li>
+<li>Pestilential Pachyderm!</li>
+<li>Phylloxera!</li>
+<li>Pickled herrings!</li>
+<li>Pirates!</li>
+<li>Pithecanthropic montebanks!</li>
+<li>Pithecanthropic pickpocket [Tibet p37 A3]!</li>
+<li>Pithecanthropus [Unicorn p24 C1]!</li>
+<li>Pockmarks!</li>
+<li>Politican!</li>
+<li>Poltroons!</li>
+<li>Polygraphs!</li>
+<li>Polynesian!</li>
+<li>Profiteers!</li>
+<li>Protoplasm!</li>
+<li>Psychopath!</li>
+<li>Puffed-up Punchinello [Picaros p10 D3/frame 12]
+</li><li>Purple profiteering jellyfish!</li>
+<li>Pyrographers!</li>
+<li>Pyromaniac!</li>
+<li>Raggle taggle ruminants!</li>
+<li>Rapscallion!</li>
+<li>Rats!</li>
+<li>Revenge [Crab p58 panel 4]!</li>
+<li>Rhizopods!</li>
+<li>RKRPXZKRMTFRZ!</li>
+<li>Road roller [Secret of the Unicorn]!</li>
+<li>Roadhogs!</li>
+<li>Saucy tramp!</li>
+<li>Savages!</li>
+<li>Scorpion!</li>
+<li>Sea-gherkin(s)!</li>
+<li>Sea-lice!</li>
+<li>Sea lion! [Prisoners p9, frame 6]</li>
+<li>Shipwreckers!</li>
+<li>Slavertrader!</li>
+<li>Slubberdegullions!</li>
+<li>Sparrows!</li>
+<li>Spitfire!</li>
+<li>Steamroller!</li>
+<li>Stoolpigeon!</li>
+<li>Subtropical sea-louse!</li>
+<li>Swine!</li>
+<li>Technocrat!</li>
+<li>Ten thousand thundering typhoons!</li>
+<li>Terrapins!</li>
+<li>Terrorists!</li>
+<li>Thundering typhoons!</li>
+<li>Tin hatted tyrants!</li>
+<li>Toads!</li>
+<li>Toffee-noses!</li>
+<li>Traitors!</li>
+<li>Tramps!</li>
+<li>Tribe of Polynesians [Destination Moon p5 D1]!</li>
+<li>Troglodytes!</li>
+<li>Turncoats!</li>
+<li>Twister!</li>
+<li>Two-timing Tartar twisters [Calculus Affair, p42, frame D1.]!</li>
+<li>Two-timing Troglodytes!</li>
+<li>Vandal!</li>
+<li>Vegetarian!</li>
+<li>Vermicellis!</li>
+<li>Viper!</li>
+<li>Visigoths!</li>
+<li>Vulture!</li>
+<li>Weevils!</li>
+<li>Whippersnapper!</li><li>
+</li><li>Wildcat!</li>
+<li>Woodlice!</li>
+<li>Young monkey [Tibet p54 A4]!</li>
+<li>Zapotecs!</li>
