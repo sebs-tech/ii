@@ -7,7 +7,7 @@ CFLAGS = -Wall -Wextra -Iinclude # Compiler flags:
                          # -Wextra: Enables extra warnings (good practice)
                          # -Iinclude: Tells the compiler to look in the 'include' directory for headers
 LDFLAGS =                # Linker flags (none needed for this simple case)
-TARGET = curses_app      # Name of the final executable
+TARGET = ii              # Name of the final executable
 SOURCES = main.c curses_data.c # All source files
 OBJECTS = $(SOURCES:.c=.o) # Automatically generate object file names (.o) from source files (.c)
 
