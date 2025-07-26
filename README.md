@@ -47,19 +47,7 @@ separates header files into an `include` directory.
 
 ## How to Compile
 
-To compile this magnificent piece of code, you'll need a C compiler
-(like GCC) and `make` installed on your system.
-
-1.  **Organize your files:**
-    * Place `main.c` and `curses_data.c` in the root directory of
-        your project.
-    * Create a directory named `include` in the root directory.
-    * Place `curses_data.h` inside the `include` directory.
-    * Place the provided `Makefile` in the root directory.
-
-    Your directory structure should look like the example above.
-
-2.  **Compile using `make`:**
+1.  **Compile using `make`:**
     Open your terminal or command prompt, navigate to the root
     directory of your project (where the `Makefile` is located),
     and run:
