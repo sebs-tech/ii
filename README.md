@@ -27,14 +27,10 @@ separates header files into an `include` directory.
 
 ```
 .
-├── data
-│   └── src
-├── README.md
-└── src
-    ├── curses_data.c
-    ├── include
-    ├── main.c
-    └── Makefile
+├── curses_data.c
+├── include
+│   └── curses_data.h
+└── main.c
 ```
 
 * `Makefile`: Automates the compilation process.
