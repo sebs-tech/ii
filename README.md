@@ -36,10 +36,14 @@ the `Makefile`).
 
 Once compiled, you can unleash the Captain's wrath!
 
-```bash ./ii ```
+```bash 
+./ii 
+```
+
 ## Example Usage
 
-```bash $ ./ii You miserable macrocephalic!
+```bash 
+$ ./ii You miserable macrocephalic!
 
 $ ./ii You blithering bashi-bazouk!
 
