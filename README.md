@@ -1,15 +1,8 @@
 # Captain Haddock's Random Curse Generator
 
-Welcome, you blithering bashi-bazouk! This is a simple C program
-designed to bring a touch of Captain Haddock's legendary linguistic
-flair to your command line. Ever needed a quick, random, and
-wonderfully imaginative insult? Look no further, you miserable
-macrocephalic!
-
-This project randomly selects one of Captain Haddock's iconic curses
-from a predefined list and prints it to your console. Perfect for
-adding some Tintin-esque charm to your scripts or just for a good
-laugh.
+Need a quick, random, Captain Haddock-inspired insult? This simple C program
+provides just that! It selects one of his iconic curses from a list and prints
+it, adding Tintin-esque flair to your command line.
 
 ## Features
 
@@ -22,71 +15,38 @@ laugh.
 
 ## Project Structure
 
-This project is organized to use a `Makefile` for compilation and
-separates header files into an `include` directory.
-
 ```
-.
+.ii
 ├── curses_data.c
 ├── include
 │   └── curses_data.h
 └── main.c
 ```
 
-* `Makefile`: Automates the compilation process.
-* `main.c`: Contains the `main` function where the random curse is
-    generated and printed.
-* `curses_data.c`: Defines the array of curse strings and their
-    total count.
-* `include/curses_data.h`: Declares the `curses` array and
-    `NUM_CURSES` for use in other source files.
-
 ## How to Compile
 
-1.  **Compile using `make`:**
-    Open your terminal or command prompt, navigate to the root
-    directory of your project (where the `Makefile` is located),
-    and run:
+1.  **Compile using `make`:** Open your terminal or command prompt, navigate to
+the root directory of your project (where the `Makefile` is located), and run:
 
-    ```bash
-    make
-    ```
-    This command will use the `Makefile` to compile your source files
-    and link them together to create an executable named `ii` (as
-    defined in the `Makefile`).
+    ```bash make ``` This command will use the `Makefile` to compile your source
+files and link them together to create an executable named `ii` (as defined in
+the `Makefile`).
 
 ## How to Run
 
 Once compiled, you can unleash the Captain's wrath!
 
-```bash
-./ii
-```
-
+```bash ./ii ```
 ## Example Usage
 
-```bash
-$ ./ii
-You miserable macrocephalic!
+```bash $ ./ii You miserable macrocephalic!
 
-$ ./ii
-You blithering bashi-bazouk!
+$ ./ii You blithering bashi-bazouk!
 
-$ ./ii
-You walking anachronism!
+$ ./ii You walking anachronism!  
 ```
-
-*(Note: The actual curses might vary based on the specific list you've
-populated in `curses_data.c`)*
-
-## Cleaning Up
-
-To remove the compiled object files and the executable, you can use
-the `clean` target in the Makefile:
-
-```bash
-make clean
-```
+*(Note: You can customize the available curses by editing the list in
+curses_data.c.)*
 
 ## Credits
 
@@ -94,11 +54,11 @@ make clean
     language.
 * **Hergé:** The brilliant creator of Tintin and the unforgettable
     Captain Haddock.
+* **My wife** for pointing out that foul language can be funny. 
+* **A chap from Scotland** I tested some of these insults on. 
 
 ## License
 
-This project is open-source and available under the
-[MIT License](https://opensource.org/licenses/MIT). Feel free to use,
-modify, and distribute it, you twenty-thousand filthy fancy-dress
-fanatics!
-
+This project is open-source and available under the [MIT
+License](https://opensource.org/licenses/MIT). Feel free to use, modify, and
+distribute it, you twenty-thousand filthy fancy-dress fanatics!
