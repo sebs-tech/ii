@@ -1,10 +1,7 @@
 // curses_data.c
+#include "curses_data.h" 
 
-#include "curses_data.h" // Include the header file to ensure consistency
-
-// Define the array of constant character pointers (strings).
-// The content of this array will be accessible from other files that include curses_data.h.
-// The compiler automatically determines the size of the array based on the number of initializers.
+/* curses data */
 const char *curses[] = {
 	"aardvark",
 	"abecedarians",
@@ -131,9 +128,7 @@ const char *curses[] = {
 	"woodlice",
 	"young monkey ",
 	"zapotecs"
-
 };
 
-// Define the size of the array.
-// The 'sizeof' operator is used to calculate the number of elements in the array.
+/* Size of the array */
 const int NUM_CURSES = sizeof(curses) / sizeof(curses[0]);

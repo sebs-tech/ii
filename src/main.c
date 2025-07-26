@@ -1,11 +1,9 @@
-#include <stdio.h>  // Required for printf
-#include <stdlib.h> // Required for rand() and srand()
-#include <time.h>   // Required for time() (used for seeding the random number generator)
-#include "curses_data.h" // Required to access 'curses' array and 'NUM_CURSES'
+#include <stdio.h>  
+#include <stdlib.h> 
+#include <time.h>   
+#include "curses_data.h" 
 
 int main() {
-    /* Calculate random number between 0 and NUM_CURSES - 1 (inclusive) */
-
     // Seed the random number generator only once
     srand(time(NULL));
 
@@ -15,5 +13,6 @@ int main() {
     // Print the randomly selected curse string
     printf("%s\n", curses[rnum]); // Corrected 'print' to 'printf' and added newline
 
-    return 0;
+    /* exit */
+	return 0;
 }
