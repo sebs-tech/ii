@@ -23,11 +23,11 @@ int main(int argc, char *argv[]) {
   temp_buffer[MAX_STRING_LENGTH] = '\0'; // Ensure null-termination
 
   /*
-          flags:
-                  -c: captialise
-                  -a: captitalise_all_letters
-            -r: capitalise_every_second_char
-                  -x: censor
+    flags:
+      -c: captialise
+      -a: captitalise_all_letters
+      -r: capitalise_every_second_char
+      -x: censor
   */
 
   // no flags
