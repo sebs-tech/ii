@@ -8,7 +8,7 @@ TARGET = ii
 SRC_DIR = src
 
 # List of source files with their full paths
-SOURCES = $(SRC_DIR)/main.c $(SRC_DIR)/curses_data.c
+SOURCES = $(wildcard $(SRC_DIR)/*.c)
 
 # Object files will be placed in the SRC_DIR to keep them with their sources
 OBJECTS = $(SOURCES:.c=.o)
