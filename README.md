@@ -16,28 +16,36 @@ it, adding Tintin-esque flair to your command line.
 ## Project Structure
 
 ```
-.ii
-├── curses_data.c
-├── include
-│   └── curses_data.h
-└── main.c
+.
+├── Makefile
+├── README.md
+└── src
+    ├── curses_data.c
+    ├── include
+    │   ├── curses_data.h
+    │   └── output_formats.h
+    ├── main.c
+    └── output_formats.c
 ```
 
-## How to Compile
+## How to Compile & Install
 
-1.  **Compile using `make`:** Open your terminal or command prompt, navigate to
-the root directory of your project (where the `Makefile` is located), and run:
-
-    ```bash make ``` This command will use the `Makefile` to compile your source
-files and link them together to create an executable named `ii` (as defined in
-the `Makefile`).
+```bash 
+$ make 
+$ sudo make install
+```
+The install path is **/usr/local/bin/ii**.
 
 ## How to Run
 
 Once compiled, you can unleash the Captain's wrath!
 
 ```bash 
-./ii 
+$ ii 
+$ ii -c # Will capitalise the first letter. 
+$ ii -a # Will capitalise all letters. 
+$ ii -r # Will capitalise every 2nd letter. 
+$ ii -x # Will censor all letters except the first and last one.
 ```
 
 ## Example Usage
@@ -58,7 +66,7 @@ curses_data.c.)*
     language.
 * **Hergé:** The brilliant creator of Tintin and the unforgettable
     Captain Haddock.
-* **My wife** for pointing out that foul language can be funny. 
+* **My wife** for pointing out that foul language can and must be funny. 
 * **A chap from Scotland** I tested some of these insults on. 
 
 ## License
