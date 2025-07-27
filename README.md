@@ -70,12 +70,9 @@ c*******e
 curses_data.c.)*
 
 ## Credits
-
-* **Captain Haddock:** For his unparalleled mastery of colorful
-    language.
-* **Hergé:** The brilliant creator of Tintin and the unforgettable
-    Captain Haddock.
 * **My wife** for pointing out that foul language can and must be funny. 
+* **Captain Haddock / Hergé:** For his unparalleled mastery of colorful
+    language.
 * **A chap from Scotland** I tested some of these insults on. 
 
 ## License
