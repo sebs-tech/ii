@@ -51,11 +51,20 @@ $ ii -x # Will censor all letters except the first and last one.
 ## Example Usage
 
 ```bash 
-$ ./ii You miserable macrocephalic!
+$ ./ii
+freshwater swabs
 
-$ ./ii You blithering bashi-bazouk!
+$ ./ii -c
+Iconoclasts
 
-$ ./ii You walking anachronism!  
+$ ./ii -a
+CENTIPEDE
+
+$ ./ii -r
+oPhIcLeIdEs
+
+$ ./ii -x
+c*******e
 ```
 *(Note: You can customize the available curses by editing the list in
 curses_data.c.)*
