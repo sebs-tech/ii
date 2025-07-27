@@ -1,8 +1,9 @@
 # Captain Haddock's Random Curse Generator
 
-Need a quick, random, Captain Haddock-inspired insult? This simple C program
-provides just that! It selects one of his iconic curses from a list and prints
-it, adding Tintin-esque flair to your command line.
+Want to avoid profanities yet maintain a stylish line of insults? This simple 
+C program provides just that! It selects one of Captain Haddock's iconic insults 
+from a list and prints it, adding Tintin-esque flair to your command line, email
+or chat. 
 
 ## Features
 
