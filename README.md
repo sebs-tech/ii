@@ -52,19 +52,19 @@ $ ii -x # Will censor all letters except the first and last one.
 ## Example Usage
 
 ```bash 
-$ ./ii
+$ ii
 freshwater swabs
 
-$ ./ii -c
+$ ii -c
 Iconoclasts
 
-$ ./ii -a
+$ ii -a
 CENTIPEDE
 
-$ ./ii -r
+$ ii -r
 oPhIcLeIdEs
 
-$ ./ii -x
+$ ii -x
 c*******e
 ```
 *(Note: You can customize the available curses by editing the list in
