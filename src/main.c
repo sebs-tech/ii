@@ -22,27 +22,51 @@ int main(int argc, char *argv[]) {
   strncpy(temp_buffer, curses[rnum], MAX_STRING_LENGTH);
   temp_buffer[MAX_STRING_LENGTH] = '\0'; // Ensure null-termination
 
-/* 
-  if (argc > 1) {
-    // arugments found, vim mode (most likely) 
-    if (atoi(argv[1]) == 0) {
-      capitalise(temp_buffer);
-    } else {
-      // Middle of the line, don't capitalise 
-      printf("With argument !0, %s ", curses[rnum]);
-    }
-  } else {
-    // no arguments, terminal mode 
-    capitalise(curses[rnum]);
-    printf("%s ", curses[rnum]);
-  }
+	/*
+		flags:
+			-c: captialise 
+			-a: captitalise_all_letters
+		  -r: capitalise_every_second_char
+			-x: censor 
+	*/	
 
-*/
+	// no flags
+	if (argc == 1) {
+		printf("%s ", temp_buffer);
+		return 0;
+	}
 
-  // capitalise_all_letters(temp_buffer);
+	// -c flag
+	if (strcmp(argv[1], "-c") == 0) {
+		capitalise(temp_buffer);
+		printf("%s ", temp_buffer);
+		return 0;
+	}
 
-  printf("%s ", temp_buffer);
+	// -a flag 
+	if (strcmp(argv[1], "-a") == 0) {
+		capitalise_all_letters(temp_buffer);
+		printf("%s ", temp_buffer);
+		return 0;
+	}
+
+	// -r flag 
+	if (strcmp(argv[1], "-r") == 0) {
+		capitalise_every_second_char(temp_buffer);
+		printf("%s ", temp_buffer);
+		return 0;
+	}
+
+	// -x flag 
+	if (strcmp(argv[1], "-x") == 0) {
+		censor(temp_buffer);
+		printf("%s ", temp_buffer);
+		return 0;
+	}
+
+
 
   /* exit */
+
   return 0;
 }
