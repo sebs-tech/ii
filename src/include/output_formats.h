@@ -10,7 +10,7 @@
 void capitalise(char *str);
 
 // Capitalises all letters of a word or sentence
-	void captital_all_letters(char *str);
+void capitalise_all_letters(char *str);
 
 // Captalises every second letter of a word or sentence
 void capitalise_every_second_char(char *str);
