@@ -49,7 +49,7 @@ int main(int argc, char *argv[]) {
     }
   }
 
-  /* Return output of ii */
+  /* Print output */
   if (isatty(STDOUT_FILENO)) {
     printf("%s\n", temp_buffer); // Add newline if outputting to a terminal
   } else {
