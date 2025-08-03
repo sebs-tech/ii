@@ -1,4 +1,4 @@
-# Captain Haddock's Random Curse Generator
+# Captain Haddock's Random Insult Generator
 
 Want to avoid profanities yet maintain a stylish line of insults? This simple 
 C program provides just that! It selects one of Captain Haddock's iconic insults 
