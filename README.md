@@ -76,7 +76,7 @@ I run `ii` directly from vim (my main text editor). That happens via a handy
 script in `~/.vimrc`. You can append the necessary stuff like this: 
 
 ```
-cat vimrc > ~/.vimrc
+cat vimrc >> ~/.vimrc
 ```
 
 and run it: 
