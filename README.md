@@ -70,6 +70,22 @@ c*******e
 *(Note: You can customize the available curses by editing the list in
 curses_data.c.)*
 
+## Vim integration
+
+I run `ii` directly from vim (my main text editor). That happens via a handy
+script in `~/.vimrc`. You can append the necessary stuff like this: 
+
+```
+cat vimrc >> ~/.vimrc
+```
+
+and run it: 
+
+```
+:II -flag 
+```
+
+
 ## Credits
 * **My wife** for pointing out that foul language can and must be funny. 
 * **Captain Haddock / Hergé:** For his unparalleled mastery of colorful
