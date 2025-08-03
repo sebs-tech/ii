@@ -35,8 +35,10 @@ or chat.
 $ make 
 $ sudo make install
 ```
-The install path is **/usr/local/bin/ii**.
-
+The install path is: 
+```
+/usr/local/bin/ii
+```
 ## How to Run
 
 Once compiled, you can unleash the Captain's wrath!
